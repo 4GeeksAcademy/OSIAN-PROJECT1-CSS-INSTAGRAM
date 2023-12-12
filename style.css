@@ -1,0 +1,71 @@
+body {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.postcard {
+    background-color: white;
+    width: 500px;
+    margin: 0 auto;
+}
+
+
+.image {
+    max-width: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+}
+
+.header-content {
+    text-align: left;
+    width: 400px;
+    margin: 20px 0;
+}
+
+.header-icon {
+    margin: 20px;
+    font-size: 30px;
+}
+
+.header-menu {
+    margin: 20px;
+    font-size: 30px;
+}
+
+h1 {
+    font-size:  15px; 
+    margin: 0;
+}
+
+h2 {
+    font-size: 15px;
+    margin: 0;
+    font-weight: 400;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 15px 20px;
+    font-size: 25px;
+}
+
+.like {
+    margin: 0 20px;
+}
+.content {
+    margin: 0 20px;
+    padding-bottom: 20px;
+}
